@@ -1,6 +1,6 @@
 {
   "name": "plagueis",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Did you ever hear the tragedy of Darth Plagueis The Wise?",
   "main": "src/index.js",
   "bin": "src/cli.js",
