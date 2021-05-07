@@ -15,7 +15,8 @@ Not from an npm package
 ## Usage
 You can use as a cli tool, maybe for copy-pasting purposes:
 ```
-plagueis
+$ npm install -g plagueis
+$ plagueis
 ```
 
 Or you can import and use in your code:
