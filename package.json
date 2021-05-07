@@ -1,0 +1,18 @@
+{
+  "name": "plagueis",
+  "version": "1.0.0",
+  "description": "Did you ever hear the tragedy of Darth Plagueis The Wise?",
+  "main": "src/index.js",
+  "bin": "src/cli.js",
+  "scripts": {
+    "start": "node src/cli.js"
+  },
+  "keywords": [
+    "Star Wars",
+    "Plagueis",
+    "Darth Plagueis",
+    "Sith"
+  ],
+  "author": "Andrea Roveroni",
+  "license": "ISC"
+}
