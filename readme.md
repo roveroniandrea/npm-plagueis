@@ -18,9 +18,22 @@ You can use as a cli tool, maybe for copy-pasting purposes:
 $ npm install -g plagueis
 $ plagueis
 ```
+It also supports different languages:
+```
+$ plagueis -en       #defaults to en
+$ plagueis -it       #also --it and it works
+```
 
 Or you can import and use in your code:
 ```js
-const plagueis = require('./index');
-console.log(plagueis); //Did you ever hear...
+const plagueis = require('plagueis');
+console.log(plagueis('it')); //Ti hanno mai raccontato...
 ```
+
+## Contributing
+You're welcome to contribute by adding more languages to the package! Just update [src/locals.json](https://github.com/roveroniandrea/npm-plagueis/blob/master/src/locals.json) and send a pull request.
+
+*"These will make a fine addition to my collection"*
+
+## Report bugs
+In the very possible case you find a bug, just [open an issue](https://github.com/roveroniandrea/npm-plagueis/issues/new)

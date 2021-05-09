@@ -1,3 +1,6 @@
 #!/usr/bin/env node
 const plagueis = require('./index');
-console.log(plagueis);
+
+const lang = process.argv[2]?.replace(/-/g, '') || 'en';
+
+console.log(plagueis(lang));
